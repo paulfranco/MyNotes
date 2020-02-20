@@ -23,10 +23,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/contentView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:ems="10"
         android:layout_marginStart="@dimen/standard_margin"
         android:layout_marginLeft="@dimen/standard_margin"
         android:layout_marginTop="@dimen/standard_margin"
@@ -34,6 +35,7 @@
         android:layout_marginRight="@dimen/standard_margin"
         android:gravity="top|left"
         android:hint="Content"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
