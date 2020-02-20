@@ -25,7 +25,7 @@
 
     <EditText
         android:id="@+id/contentView"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:ems="10"
         android:layout_marginStart="@dimen/standard_margin"
@@ -35,7 +35,11 @@
         android:layout_marginRight="@dimen/standard_margin"
         android:gravity="top|left"
         android:hint="Content"
-        android:inputType="textPersonName"
+        android:lines="8"
+        android:minLines="6"
+        android:maxLines="20"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
